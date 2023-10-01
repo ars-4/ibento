@@ -1,0 +1,21 @@
+{
+    "requests": [
+        {
+            "type": "auth",
+            "paths": [
+                {
+                    "path": "/api/login",
+                    "method": "post",
+                    "body": {
+                        "email": "string",
+                        "password": "string"
+                    }
+                },
+                {
+                    "path": "/api/register",
+                    "method": "post"
+                }
+            ]
+        }
+    ]
+}
